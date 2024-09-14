@@ -1,0 +1,32 @@
+/* Styles généraux */
+.table-responsive {
+    margin: 20px auto;
+  }
+  
+  /* Conteneur principal pour les cartes */
+  .cartes-container {
+    display: flex;
+    flex-wrap: wrap; /* Permet de passer à la ligne quand nécessaire */
+    gap: 10px; /* Espace entre les images */
+    justify-content: flex-start; /* Aligne les cartes sur la ligne de début */
+  }
+  
+  /* Chaque carte doit occuper un tiers de la ligne */
+  .carte {
+    flex: 1 0 30%; /* Chaque carte occupe environ 30% de la largeur */
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Espace entre les rangées */
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style des images */
+  .carte img {
+    width: 200px; /* Réduit la largeur de l'image, ajustez selon vos besoins */
+    height: auto;
+    object-fit: cover; /* Maintient les proportions tout en remplissant la zone */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: block;
+  }
+  

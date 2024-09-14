@@ -1,0 +1,97 @@
+/* Conteneur général */
+.table-responsive {
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 100%;
+  overflow-x: auto; /* Permet le défilement horizontal si nécessaire */
+}
+
+/* Style pour les titres de sections */
+.series-section h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Style pour le tableau */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+/* Bordures des cellules */
+.table-bordered th, 
+.table-bordered td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Style des en-têtes du tableau */
+.table th {
+  background-color: #4CAF50; /* Couleur de fond pour les en-têtes */
+  color: white;
+  font-weight: bold;
+}
+
+/* Alternance des couleurs de ligne */
+.table-striped tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+/* Style pour les images dans le tableau */
+.table td img {
+  width: 100px; /* Largeur ajustée pour les images */
+  height: auto; /* Maintient les proportions */
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+/* Réduire le texte pour s'adapter si trop long */
+.table td {
+  word-wrap: break-word;
+  white-space: normal; /* Permet le retour à la ligne si le contenu est trop long */
+}
+
+/* Style général pour les boutons */
+.btn {
+  border: none;
+  padding: 0; /* Élimine le padding pour ajuster à la taille de l'icône */
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: transform 0.2s ease; /* Animation au survol */
+  border-radius: 10px;
+}
+
+/* Style pour les icônes des boutons */
+.btn img {
+  width: 12px; /* Taille des icônes */
+  height: 12px;
+}
+
+/* Bouton Éditer */
+.edit-btn {
+  background-color: #FFA500; /* Couleur orange */
+}
+
+.edit-btn:hover {
+  transform: scale(1.1); /* Effet de zoom léger au survol */
+}
+
+/* Bouton Supprimer */
+.delete-btn {
+  background-color: #FF0000; /* Couleur rouge */
+  margin-left: 3px; /* Espacement entre les boutons */
+}
+
+.delete-btn:hover {
+  transform: scale(1.1); /* Effet de zoom léger au survol */
+}

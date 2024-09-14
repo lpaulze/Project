@@ -1,0 +1,110 @@
+/* Conteneur général du formulaire */
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style du titre */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Style pour chaque label et champ */
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Style des champs de saisie */
+input[type="text"] {
+  width: calc(100% - 12px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Style pour le select */
+#modif-idBloc {
+  width: calc(100% - 12px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+#modif-langue {
+  width: calc(100% - 12px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+/* Style pour le conteneur de l'image cliquable */
+.image-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.image-label img {
+  width: 60px; /* Taille de l'image */
+  height: auto;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+  transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+.image-label:hover img {
+  transform: scale(1.1); /* Effet de zoom au survol */
+}
+
+.image-label span {
+  color: #007bff;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+/* Style pour le bouton de soumission */
+input[type="submit"] {
+  display: block;
+  width: 100px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+
+
+

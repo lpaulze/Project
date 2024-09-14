@@ -1,0 +1,49 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Gris très clair */
+    color: #333; /* Gris foncé pour le texte */
+}
+
+/* Style du titre */
+h1 {
+    text-align: center;
+    color: #333; /* Gris foncé */
+    padding: 20px 0;
+    margin: 0;
+    font-size: 32px;
+    border-bottom: 2px solid #ddd; /* Légère bordure grise */
+}
+
+/* Style de la navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #fff; /* Fond blanc */
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc; /* Ligne grise pour séparer */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333; /* Gris foncé */
+    font-size: 16px;
+    margin: 0 15px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #e0e0e0; /* Gris clair au survol */
+    color: #000; /* Couleur du texte en noir au survol */
+}
+
+/* Styles supplémentaires pour le corps */
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+

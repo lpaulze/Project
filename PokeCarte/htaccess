@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /Project
+
+RewriteRule ^(\w+)$ ?action=$1 [L,QSA]
+
+RewriteCond %{THE_REQUEST} /?(?:action=(\w+)&idC=(\d+)|action=(\w+))/gm [NC]
+RewriteRule ^ %1? [R=301,L]

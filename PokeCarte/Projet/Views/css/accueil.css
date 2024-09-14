@@ -1,0 +1,47 @@
+/* Styles pour le conteneur des séries */
+.table-responsive {
+    margin: 20px auto;
+    overflow-x: auto; /* Permet le défilement horizontal si nécessaire */
+  }
+  
+  /* Styles pour chaque section de série */
+  .series-section {
+    margin-bottom: 30px; /* Espace entre les sections */
+  }
+  
+  .series-section h2 {
+    text-align: center; /* Centre le titre des sections */
+    margin-bottom: 15px; /* Espace sous le titre */
+  }
+  
+  /* Conteneur des images */
+  .images-container {
+    display: flex;
+    flex-wrap: wrap; /* Permet aux images de passer à la ligne suivante si nécessaire */
+    gap: 10px; /* Espace entre les images */
+    justify-content: flex-start; /* Aligne les images à gauche */
+  }
+  
+  /* Style pour chaque image */
+  .image-item {
+    flex: 1 1 23%; /* Chaque image prend environ 23% de la largeur du conteneur pour ajuster 4 images par ligne */
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden; /* Ensures image doesn't overflow its container when scaled */
+    display: inline-block;
+  }
+  
+  .image-item img {
+    width: 200px; /* La largeur de l'image prend toute la largeur du conteneur */
+    height: auto; /* Garde les proportions de l'image */
+    border: 1px solid #ddd; /* Bordure autour des images */
+    border-radius: 5px; /* Coins arrondis des images */
+    object-fit: cover; /* Maintient les proportions tout en remplissant l'espace */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+  }
+
+  /* Effect on hover */
+  .image-item:hover img {
+    transform: scale(1.1); /* Scale the image when hovered */
+  }
+  

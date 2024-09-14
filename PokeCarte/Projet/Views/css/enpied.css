@@ -1,0 +1,44 @@
+
+/* Footer */
+footer {
+    background-color: #004b6e; /* Bleu foncé */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative; /* Par défaut, il est relatif à la page */
+    width: 100%;
+    font-size: 14px;
+    margin-top: auto; /* Pousse le footer vers le bas du contenu */
+}
+
+footer.fixed {
+    position: fixed; /* Le fixe en bas de page */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Style des crédits */
+footer .credit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 5px 0;
+}
+
+/* Texte du footer */
+footer p {
+    margin: 0;
+    padding: 5px 0;
+    color: white;
+}
+
+.content {
+    flex-grow: 1;
+}

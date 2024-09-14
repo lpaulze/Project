@@ -1,0 +1,27 @@
+/* Style pour le conteneur des messages d'erreur */
+.error-message {
+    display: block; /* Assure que le bloc s'affiche */
+    color: #a94442; /* Couleur du texte rouge foncé pour signaler l'erreur */
+    background-color: #f2dede; /* Couleur de fond rouge pâle pour une mise en évidence douce */
+    border: 1px solid #ebccd1; /* Bordure subtile en rouge clair */
+    padding: 10px 15px; /* Espacement interne pour une bonne lisibilité */
+    margin: 10px 0; /* Espacement autour du bloc d'erreur pour le séparer des autres éléments */
+    border-radius: 4px; /* Coins arrondis pour un style agréable */
+    font-size: 14px; /* Taille de la police pour le texte des erreurs */
+    font-weight: 500; /* Police semi-grasse pour un accent modéré */
+    line-height: 1.5; /* Espacement des lignes pour une meilleure lisibilité */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Ombre légère pour donner de la profondeur */
+}
+
+/* Style pour chaque message d'erreur individuel, si nécessaire */
+.error-message p {
+    margin: 5px 0; /* Espacement entre les messages pour éviter qu'ils se collent */
+}
+
+/* Ajout d'une icône de type avertissement au début */
+.error-message::before {
+    content: '⚠️ '; /* Icône d'avertissement */
+    font-size: 16px; /* Taille de l'icône */
+    margin-right: 5px; /* Espacement entre l'icône et le texte */
+    display: inline-block; /* Pour l'alignement correct avec le texte */
+}
