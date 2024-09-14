@@ -49,8 +49,19 @@
         <?php } ?>
     </select>
 
+    <?php if (!empty($erreurs)) { ?>
+    <div class="error-message">
+        <?php 
+            foreach ($erreurs as $erreur) {
+                echo "<p>$erreur</p>";
+            }  
+        ?>
+    </div>
+    <?php } ?>
+
     <div>
-        <input type='submit' name="modifier" value='Modifier' />
+        <input type='submit' name="modifier" value='Modifier'/>
+        <div id = "annuler" ><a href='./?action=SerieBack'>Annuler</a></div>
     </div>
 </form>
 <?php } ?>
@@ -107,6 +118,7 @@
 
     <div>
         <input type='submit' name="Ajouter" value='Ajouter' />
+        <div id = "annuler" ><a href='./?action=SerieBack'>Annuler</a></div>
     </div>
 </form>
 <?php } ?>
