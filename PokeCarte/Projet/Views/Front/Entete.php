@@ -6,9 +6,7 @@
         <link href="./Views/css/erreur.css" rel="stylesheet" />
         <link href="./Views/css/serie.css" rel="stylesheet" />
         <link href="./Views/css/serieBack.css" rel="stylesheet" />
-        <link href="./Views/css/serieMaj.css" rel="stylesheet" />
         <link href="./Views/css/accueil.css" rel="stylesheet" />
-        <link href="./Views/css/styles.css" rel="stylesheet" />
         <link href="./Views/css/entete.css" rel="stylesheet" />
         <link href="./Views/css/enpied.css" rel="stylesheet" />
 

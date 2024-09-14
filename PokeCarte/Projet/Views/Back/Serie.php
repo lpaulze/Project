@@ -1,12 +1,10 @@
 <?php if ($_GET["action"] == "SerieBack"){?>
 <div id="listeSeries" class="table-responsive">
     <div class="series-section">
-        <h2>Les séries japonaises</h2>
+        <h2>Liste des séries</h2>
         <table class="table table-bordered table-striped">
             <thead>
-                <a href='./?action=AddSerie'>
-                    <button class="btn add-btn">Ajouter une nouvelle série</button>
-                </a>
+                <div id = "btnAdd" ><a href='./?action=AddSerie'>Ajouter une nouvelle série</a></div>
                 <tr>
                     <th>id</th>
                     <th>nom</th>

@@ -9,7 +9,9 @@
                     <p>lpaulze.sio@gmail.com</p>
                 
                 </ul>
+                <ul class="droit">
                 <p>&copy; 2024 PokeCarte. Tous droits réservés.</p>
+                <ul class="mail">
             </div>
         </div>
     </footer>
